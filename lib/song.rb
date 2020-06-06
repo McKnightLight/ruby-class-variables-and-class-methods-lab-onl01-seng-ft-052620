@@ -32,7 +32,7 @@ class Song
     # self.genres - unique array of genres 
     
     genre_hash = {}
-    
+    self.genres.each do |genre|
     genre_hash
     
   end 
