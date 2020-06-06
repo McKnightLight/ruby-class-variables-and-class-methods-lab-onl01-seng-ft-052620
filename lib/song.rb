@@ -41,7 +41,7 @@ class Song
   
   end 
   
-    def self.artist 
+    def self.artist_count 
     # @@artist - non-unique array of genres
     # self.artist - unique array of genres 
     
