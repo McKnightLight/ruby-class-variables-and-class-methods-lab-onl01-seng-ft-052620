@@ -33,6 +33,7 @@ class Song
     
     genre_hash = {}
     self.genres.each do |genre|
+      
     genre_hash
     
   end 
