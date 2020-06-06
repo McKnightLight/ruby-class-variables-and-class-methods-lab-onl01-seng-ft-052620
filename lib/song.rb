@@ -27,4 +27,14 @@ class Song
     @@genres.uniq 
   end 
   
+  def self.genre_count 
+    # @@genres - non-unique array of genres
+    # self.genres - unique array of genres 
+    
+    genre_hash = {}
+    
+    genre_hash
+    
+  end 
+  
 end
