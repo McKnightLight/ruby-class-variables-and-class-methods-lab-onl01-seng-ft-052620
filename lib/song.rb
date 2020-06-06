@@ -38,20 +38,18 @@ class Song
     end
     
     genre_hash 
-  
   end 
   
     def self.artist_count 
     # @@artist - non-unique array of genres
     # self.artist - unique array of genres 
     
-    artist = {}
+    artist_hash = {}
     
-    self.artist.each do |genre|
-      artist[genre] = @@artists.count {|a| a == artist}
+    self.artist.each do |artist|
+      artist_hash[artist] = @@artists.count {|a| a == artist }
     end 
     
     artist_hash 
-    
   end 
 end
